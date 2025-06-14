@@ -1,0 +1,597 @@
+<!DOCTYPE HTML>
+<!--
+	Big Picture by HTML5 UP
+	html5up.net | @ajlkn
+	Free for personal and commercial use under the CCA 3.0 license (html5up.net/license)
+-->
+<html>
+	<head>
+		<title>Vogue Vignettes</title>
+		    <link rel="stylesheet" href="fontawesome-5.5/css/all.min.css" />
+    <link rel="stylesheet" href="slick/slick.css">
+    <link rel="stylesheet" href="slick/slick-theme.css">
+    <link rel="stylesheet" href="magnific-popup/magnific-popup.css">
+    <link rel="stylesheet" href="css/bootstrap.min.css" />
+    <link rel="stylesheet" href="css/templatemo-style.css" />
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+	</head>
+	<body class="is-preload">
+
+<!-- Popup Advertisement -->
+<div id="adPopup" class="popup-ad">
+  <div class="popup-inner">
+    <span class="popup-close" onclick="closeAd()">&times;</span>
+    <h2>Subscribe to our magazine today!</h2>
+    <p>Stay updated with the latest fashion news</p>
+    <a href="#vogue-club" class="button" onclick="scrollToSection()">Sign up now</a>
+  </div>
+</div>
+
+<script>
+  window.onload = function() {
+    setTimeout(function() {
+      document.getElementById("adPopup").style.display = "flex";
+    }, 1500); // delay popup by 1.5 seconds
+  }
+
+  function closeAd() {
+    document.getElementById("adPopup").style.display = "none";
+  }
+
+  function scrollToSection() {
+    // Close the ad popup
+    closeAd();
+
+    // Scroll to the section with id "runway"
+    document.querySelector('#runway').scrollIntoView({ behavior: 'smooth' });
+  }
+</script>
+		<!-- Header -->
+			<header id="header">
+				<center>
+				<h1>Vogue Vignettes</h1>
+				<nav>
+					<ul>
+						<li><a href="#fashion">Fashion</a></li>
+						<li><a href="#runway">Runway</a></li>
+						<li><a href="#stages">Stages</a></li>
+						<li><a href="#met-gala-2025">Met Gala 2025</a></li>
+						<li><a href="#vogue-club">Vogue Club</a></li>
+						<li><a href="#contact">Contact</a></li>
+					</ul>
+				</nav>
+				</center>
+			</header>		
+
+<!-- Fashion Section -->
+<section id="fashion" class="main style1 dark fullscreen"
+  style="background-size: cover; background-position: center; height: 400px; width: 100%; margin: 0 auto; position: relative; overflow: hidden;">
+
+
+  <!-- Fade overlay for smooth transition -->
+  <div id="fadeOverlay" class="fade-overlay"></div>
+
+  <!-- Navigation Buttons -->
+  <button id="prevBtn" class="nav-btn left-btn">&#10094;</button>
+  <button id="nextBtn" class="nav-btn right-btn">&#10095;</button>
+</section>
+
+<script src="slideshow.js"></script>
+
+<!-- CSS for fade and buttons -->
+<style>
+  .nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255,255,255,0.6);
+    border: none;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    z-index: 11;
+    color: #000;
+    border-radius: 5px;
+  }
+
+  .left-btn { left: 10px; }
+  .right-btn { right: 10px; }
+  .nav-btn:hover { background: rgba(255,255,255,0.9); }
+
+  .fade-overlay {
+    position: absolute;
+    top: 0; left: 0;
+    width: 100%; height: 100%;
+    background-color: #000;
+    opacity: 0;
+    pointer-events: none;
+    z-index: 5;
+    transition: opacity 0.6s ease;
+  }
+
+  .fade-overlay.active {
+    opacity: 0.5;
+  }
+</style>
+
+<!-- Link to external JavaScript -->
+<script src="slideshow.js"></script>
+
+<!-- Optional: Basic styles for buttons -->
+<style>
+  .nav-btn {
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    background: rgba(255,255,255,0.6);
+    border: none;
+    font-size: 2rem;
+    padding: 0.5rem 1rem;
+    cursor: pointer;
+    z-index: 10;
+    color: #000;
+    border-radius: 5px;
+  }
+
+  .left-btn {
+    left: 10px;
+  }
+
+  .right-btn {
+    right: 10px;
+  }
+
+  .nav-btn:hover {
+    background: rgba(255,255,255,0.9);
+  }
+</style>
+
+<!-- Dots -->
+<div id="dotsContainer" class="dots-container">
+  <!-- Dots will be inserted here dynamically -->
+</div>
+
+<!-- Runway -->
+ <head>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@700&display=swap" rel="stylesheet">
+</head>
+<header class="runway-header">
+  <h1>RUNWAY</h1>
+</header>
+ <section id="runway" class="tm-section-pad-top">
+      <div class="container">
+        <div class="row">
+          <div class="col-lg-6">
+            <img src="https://i.pinimg.com/736x/1f/a0/9f/1fa09fe040f86b80e55a68726842bbbd.jpg" alt="Image" class="img-fluid tm-intro-img" />
+          </div>
+          <div class="col-lg-6">
+            <div class="tm-intro-text-container">
+                <h2 class="tm-text-primary mb-4 tm-section-title">What are runway walks?</h2>
+                <p class="mb-4 tm-intro-text">
+                  Runway walks or also known as fashion shows are <strong>an event</strong>  put on by a fashion designer to showcase their upcoming line of clothing and/or accessories during a fashion week. Fashion shows debut every season, particularly the spring/summer and fall/winter seasons. This is where designers seek to promote their new fashions.
+              </p>
+                <p class="mb-5 tm-intro-text">
+                  Famous fashion shows include:  </p>
+                  <p class="mb-5 tm-intro-text"> Alexander McQueen Spring 1999 show, the Versace Autumn/Winter 1991 show, the Chanel Spring 1994 show, and the Gucci Fall/Winter 1995 show.</p>
+                  <p class="mb-5 tm-intro-text"> Want to learn more about the shows listed above?</p>
+                <div class="tm-next">
+                  <a href="#stages" class="tm-intro-text tm-btn-primary">Read More</a>
+                </div>
+            </div>
+          </div>
+        </div>
+    </section>
+
+<!-- Stages -->
+<section id="stages" class="tm-section-pad-top">
+      <div class="container tm-container-gallery">
+        <div class="row">
+          <div class="text-center col-12">
+              <h2 class="tm-text-primary tm-section-title mb-4">WOWZA !!</h2>
+              <p class="mx-auto tm-work-description">
+                "Some of the most famous and influential runway shows in fashion history include:"
+              </p>
+          </div>            
+        </div>
+        <div class="row">
+            <div class="col-12">
+                <div class="mx-auto tm-gallery-container">
+                    <div class="grid tm-gallery">
+                      <a href="https://assets.vogue.com/photos/55d34b6329ae4c5551200de0/master/w_1600,c_limit/ALEXANDER-MCQUEEN-SPRING-1999-RTW-01-ERIN-OCONNOR.jpg">
+                        <figure class="effect-honey tm-gallery-item">
+                          <img src="https://assets.vogue.com/photos/55d34b6329ae4c5551200de0/master/w_1600,c_limit/ALEXANDER-MCQUEEN-SPRING-1999-RTW-01-ERIN-OCONNOR.jpg" alt="Image" class="img-fluid">
+                          <figcaption>
+                            <h2><i>Spring <span>1999</span><p>Alexander McQueen</p></i></h2>
+                          </figcaption>
+                        </figure>
+                      </a>
+                      <a href="https://assets.vogue.com/photos/55d7a5d7a29b3c331d148c92/master/w_1600,c_limit/VERSACE-FALL-1991-RTW-01-LINDA-EVANGELISTA.jpg">
+                        <figure class="effect-honey tm-gallery-item">
+                          <img src="https://assets.vogue.com/photos/55d7a5d7a29b3c331d148c92/master/w_1600,c_limit/VERSACE-FALL-1991-RTW-01-LINDA-EVANGELISTA.jpg" alt="Image" class="img-fluid">
+                          <figcaption>
+                            <h2><i>Fall <span>1991</span><p>Versace</p></i></h2>
+                          </figcaption>
+                        </figure>
+                      </a>
+                      <a href="https://assets.vogue.com/photos/55d4a81629ae4c5551201649/master/w_1600,c_limit/GUCCI-FALL-1995-RTW-01-AMBER-VALLETTA.jpg">
+                        <figure class="effect-honey tm-gallery-item">
+                          <img src="https://assets.vogue.com/photos/55d4a81629ae4c5551201649/master/w_1600,c_limit/GUCCI-FALL-1995-RTW-01-AMBER-VALLETTA.jpg" alt="Image" class="img-fluid">
+                          <figcaption>
+                            <h2><i>Fall <span>1995</span><p>Gucci</p></i></h2>
+                          </figcaption>
+                        </figure>
+                      </a>
+                      <a href="https://assets.vogue.com/photos/55c6518408298d8be2231755/master/w_1600,c_limit/01m.jpg">
+                        <figure class="effect-honey tm-gallery-item">
+                          <img src="https://assets.vogue.com/photos/55c6518408298d8be2231755/master/w_1600,c_limit/01m.jpg" alt="Image" class="img-fluid">
+                          <figcaption>
+                            <h2><i>Spring <span>2008</span><p>Louis Vuitton</p></i></h2>
+                          </figcaption>
+                        </figure>
+                      </a>
+                      <a href="https://assets.vogue.com/photos/55c650d308298d8be216c4a5/master/w_1600,c_limit/00010fullscreen.jpg">
+                        <figure class="effect-honey tm-gallery-item">
+                          <img src="https://assets.vogue.com/photos/55c650d308298d8be216c4a5/master/w_1600,c_limit/00010fullscreen.jpg" alt="Image" class="img-fluid">
+                          <figcaption>
+                            <h2><i>Spring <span>2012</span><p>Louis Vuitton</p></i></h2>
+                          </figcaption>
+                        </figure>
+                      </a>
+                      <a href="https://assets.vogue.com/photos/55c6513e08298d8be21e0341/master/w_1600,c_limit/CHA_0055.1366x2048.JPG">
+                        <figure class="effect-honey tm-gallery-item">
+                          <img src="https://assets.vogue.com/photos/55c6513e08298d8be21e0341/master/w_1600,c_limit/CHA_0055.1366x2048.JPG"
+alt="Image" class="img-fluid">
+                          <figcaption>
+                            <h2><i>Fall <span>2014</span><p>Chanel</p></i></h2>
+                          </figcaption>
+                        </figure>
+                      </a>
+                      <a href="https://assets.vogue.com/photos/577ea8bfab85a8ca16d81f08/master/w_1600,c_limit/IMG_0019.jpg">
+                        <figure class="effect-honey tm-gallery-item">
+                          <img src="https://assets.vogue.com/photos/577ea8bfab85a8ca16d81f08/master/w_1600,c_limit/IMG_0019.jpg" alt="Image" class="img-fluid">
+                          <figcaption>
+                            <h2><i>Fall <span>2016</span><p>Fendi</p></i></h2>
+                          </figcaption>
+                        </figure>
+                      </a>
+                    
+
+					
+
+				</div>
+			</section>
+
+
+
+
+<h1 class="section-title">Fashion Highlights of the Met Gala 2025</h1>	<section id="met-gala-2025"></section>
+<head><link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;500;700&display=swap" rel="stylesheet">
+</head>
+<div class="gallery-grid">
+
+<div class="celeb-wrapper">
+  <div class="celeb-card">
+    <img src="https://i.ibb.co/d3SFLpB/81dc2bb3c8f441ce9838889409557172.png" alt="Zendaya">
+    <video class="video-overlay" muted autoplay loop playsinline>
+      <source src="videos/zendaya.mp4" type="video/mp4">
+    </video>
+  </div>
+   <p class="celeb-name">Zendaya</p>
+</div>
+
+<div class="celeb-wrapper">
+  <div class="celeb-card">
+    <img src="https://i.ibb.co/Bdkhgsr/Kxeovj-Jt-W9r-Fd-No5rs4dy-R-1024-80-jpg.webp" alt="Rihanna">
+    <video class="video-overlay" muted autoplay loop playsinline>
+      <source src="videos/rihanna.mp4" type="video/mp4">
+    </video>
+  </div>
+   <p class="celeb-name">Rihanna</p>
+</div>
+
+<div class="celeb-wrapper">
+  <div class="celeb-card">
+    <img src="https://i.ibb.co/wZjJbLyr/88031917456.png" alt="Damson Idris">
+    <video class="video-overlay" muted autoplay loop playsinline>
+      <source src="videos/damsonidris.mp4" type="video/mp4">
+    </video>
+  </div>
+   <p class="celeb-name">Damson Idris</p>
+</div>
+
+  <div class="celeb-wrapper">
+  <div class="celeb-card">
+    <img src="https://i.ibb.co/PZRQ227G/gettyimages-2213604421-68193d3476d55.jpg" alt="Gigi Hadid">
+    <video class="video-overlay" muted autoplay loop playsinline>
+      <source src="videos/gigihadid.mp4" type="video/mp4">
+    </video>
+  </div>
+   <p class="celeb-name">Gigi Hadid</p>
+</div>
+
+  <div class="celeb-wrapper">
+    <div class="celeb-card">
+    <img src="https://i.ibb.co/kVvBBsFv/2213605938.webp" alt="Jennie">
+    <video class="video-overlay" muted autoplay loop playsinline>
+      <source src="videos/jenniekim.mp4" type="video/mp4">
+    </video>
+  </div>
+   <p class="celeb-name">Jennie Kim</p>
+</div>
+
+  <div class="celeb-wrapper">
+    <div class="celeb-card">
+    <img src="https://i.ibb.co/LXtFmFsg/2213599573.webp" alt="Lewis Hamilton">
+    <video class="video-overlay" muted autoplay loop playsinline>
+      <source src="videos/lewishamilton.mp4" type="video/mp4">
+    </video>
+  </div>
+   <p class="celeb-name">Lewis Hamilton</p>
+</div>
+
+  <div class="celeb-wrapper">
+    <div class="celeb-card">
+    <img src="https://i.ibb.co/NntPQxcZ/2213593491.webp" alt="Teyana Taylor">
+    <video class="video-overlay" muted autoplay loop playsinline>
+      <source src="videos/teyanataylor.mp4" type="video/mp4">
+    </video>
+  </div>
+   <p class="celeb-name">Teyana Taylor</p>
+</div>
+
+  <div class="celeb-wrapper">
+    <div class="celeb-card">
+    <img src="https://i.ibb.co/23jk43mh/gettyimages-2213610551-68194c0e2f4f3.jpg" alt="Hunter Schafer">
+    <video class="video-overlay" muted autoplay loop playsinline>
+      <source src="videos/hunterschafer.mp4" type="video/mp4">
+    </video>
+  </div>
+   <p class="celeb-name">Hunter Schafer</p>
+</div>
+
+</div>
+
+
+	<!-- Vogue Club -->
+<section class="signup-section" id="vogue-club">
+  <div class="signup-overlay">
+    <h2 class="signup-title">Subscribe to Vogue Vignettes.</h2>
+    <form class="signup-form">
+      <input type="email" placeholder="Enter your email" required />
+      <button type="submit">Sign Up</button>
+    </form>
+  </div>
+</section>
+	<!-- Footer -->
+   <head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Vogue Footer Clone</title>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+<footer id="contact" class="site-footer">
+  <footer class="vogue-footer">
+    <div class="footer-top">
+      <h1>VOGUE</h1>
+      <p>The latest fashion news, beauty coverage, celebrity style, fashion week updates, culture reviews, and videos on Vogue.com.</p>
+    </div>
+
+    <div class="social-icons">
+      <i class="fab fa-facebook-f"></i>
+      <i class="fab fa-x-twitter"></i>
+      <i class="fab fa-pinterest-p"></i>
+      <i class="fab fa-instagram"></i>
+      <i class="fab fa-tiktok"></i>
+    </div>
+
+    <div class="footer-links">
+      <div>
+        <h3>MORE FROM VOGUE</h3>
+        <ul>
+          <li>Newsletter</li>
+          <li>Manage Account</li>
+          <li>Verify Subscription</li>
+          <li>Contact Us</li>
+          <li>About Vogue</li>
+          <li>Careers</li>
+          <li>Projects</li>
+          <li>Vogue Archive</li>
+          <li>Forces of Fashion</li>
+          <li>Vogue College of Fashion</li>
+        </ul>
+      </div>
+      <div>
+        <h3>SEE MORE STORIES</h3>
+        <ul>
+          <li>Fashion</li>
+          <li>Beauty</li>
+          <li>Culture</li>
+          <li>Living</li>
+          <li>Runway</li>
+          <li>Shopping</li>
+          <li>Magazine</li>
+          <li>Gift Guides</li>
+          <li>Best of Sale</li>
+        </ul>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Font Awesome for social icons -->
+  <script src="https://kit.fontawesome.com/a076d05399.js" crossorigin="anonymous"></script>
+</body>
+</html>
+
+		<!-- Scripts -->
+			<script src="assets/js/jquery.min.js"></script>
+			<script src="assets/js/jquery.poptrox.min.js"></script>
+			<script src="assets/js/jquery.scrolly.min.js"></script>
+			<script src="assets/js/jquery.scrollex.min.js"></script>
+			<script src="assets/js/browser.min.js"></script>
+			<script src="assets/js/breakpoints.min.js"></script>
+			<script src="assets/js/util.js"></script>
+			<script src="assets/js/main.js"></script>
+
+
+    <script src="js/jquery-1.9.1.min.js"></script>     
+    <script src="slick/slick.min.js"></script>
+    <script src="magnific-popup/jquery.magnific-popup.min.js"></script>
+    <script src="js/jquery.singlePageNav.min.js"></script>     
+    <script src="js/bootstrap.min.js"></script> 
+    <script>
+
+      function getOffSet(){
+        var _offset = 450;
+        var windowHeight = window.innerHeight;
+
+        if(windowHeight > 500) {
+          _offset = 400;
+        } 
+        if(windowHeight > 680) {
+          _offset = 300
+        }
+        if(windowHeight > 830) {
+          _offset = 210;
+        }
+
+        return _offset;
+      }
+
+      function setParallaxPosition($doc, multiplier, $object){
+        var offset = getOffSet();
+        var from_top = $doc.scrollTop(),
+          bg_css = 'center ' +(multiplier * from_top - offset) + 'px';
+        $object.css({"background-position" : bg_css });
+      }
+
+      // Parallax function
+      // Adapted based on https://codepen.io/roborich/pen/wpAsm        
+      var background_image_parallax = function($object, multiplier, forceSet){
+        multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
+        multiplier = 1 - multiplier;
+        var $doc = $(document);
+        // $object.css({"background-attatchment" : "fixed"});
+
+        if(forceSet) {
+          setParallaxPosition($doc, multiplier, $object);
+        } else {
+          $(window).scroll(function(){          
+            setParallaxPosition($doc, multiplier, $object);
+          });
+        }
+      };
+
+      var background_image_parallax_2 = function($object, multiplier){
+        multiplier = typeof multiplier !== 'undefined' ? multiplier : 0.5;
+        multiplier = 1 - multiplier;
+        var $doc = $(document);
+        $object.css({"background-attachment" : "fixed"});
+        $(window).scroll(function(){
+          var firstTop = $object.offset().top,
+              pos = $(window).scrollTop(),
+              yPos = Math.round((multiplier * (firstTop - pos)) - 186);              
+
+          var bg_css = 'center ' + yPos + 'px';
+
+          $object.css({"background-position" : bg_css });
+        });
+      };
+      
+      $(function(){
+        // Hero Section - Background Parallax
+        background_image_parallax($(".tm-parallax"), 0.30, false);
+        background_image_parallax_2($("#contact"), 0.80);   
+        
+        // Handle window resize
+        window.addEventListener('resize', function(){
+          background_image_parallax($(".tm-parallax"), 0.30, true);
+        }, true);
+
+        // Detect window scroll and update navbar
+        $(window).scroll(function(e){          
+          if($(document).scrollTop() > 120) {
+            $('.tm-navbar').addClass("scroll");
+          } else {
+            $('.tm-navbar').removeClass("scroll");
+          }
+        });
+        
+        // Close mobile menu after click 
+        $('#tmNav a').on('click', function(){
+          $('.navbar-collapse').removeClass('show'); 
+        })
+
+        // Scroll to corresponding section with animation
+        $('#tmNav').singlePageNav();        
+        
+        // Add smooth scrolling to all links
+        // https://www.w3schools.com/howto/howto_css_smooth_scroll.asp
+        $("a").on('click', function(event) {
+          if (this.hash !== "") {
+            event.preventDefault();
+            var hash = this.hash;
+
+            $('html, body').animate({
+              scrollTop: $(hash).offset().top
+            }, 400, function(){
+              window.location.hash = hash;
+            });
+          } // End if
+        });
+
+        // Pop up
+        $('.tm-gallery').magnificPopup({
+          delegate: 'a',
+          type: 'image',
+          gallery: { enabled: true }
+        });
+
+        // Gallery
+        $('.tm-gallery').slick({
+          dots: true,
+          infinite: false,
+          slidesToShow: 5,
+          slidesToScroll: 2,
+          responsive: [
+          {
+            breakpoint: 1199,
+            settings: {
+              slidesToShow: 4,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 991,
+            settings: {
+              slidesToShow: 3,
+              slidesToScroll: 2
+            }
+          },
+          {
+            breakpoint: 767,
+            settings: {
+              slidesToShow: 2,
+              slidesToScroll: 1
+            }
+          },
+          {
+            breakpoint: 480,
+            settings: {
+              slidesToShow: 1,
+              slidesToScroll: 1
+            }
+          }
+        ]
+        });
+      });
+    </script>
+
+
+
+
+	</body>
+</html>
